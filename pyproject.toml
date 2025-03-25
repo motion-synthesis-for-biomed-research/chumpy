@@ -1,0 +1,20 @@
+[project]
+name = "chumpy"
+version = "0.71"
+description = "chumpy (poetry build)"
+authors = [
+    {name = "Matthew Loper"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.2.4,<3.0.0)",
+    "scipy (>=1.15.2,<2.0.0)",
+    "six (>=1.17.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
